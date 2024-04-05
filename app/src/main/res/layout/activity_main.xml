@@ -39,6 +39,14 @@
             android:layout_margin="20dp"
             android:background="#2596be"/>
 
+        <ImageView
+            android:id="@+id/myImage"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_margin="20dp"
+            android:contentDescription="summer_img"
+            app:srcCompat="@drawable/summerimg" />
+
 
 
     </LinearLayout>

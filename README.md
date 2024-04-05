@@ -33,7 +33,17 @@ Added EditText with placeholder "Skriv här" in activity_main.xml
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:background="#2596be"/>
-```            
+```      
+Added png-file in resource manager and added ImageView and added image there.
+```  
+        <ImageView
+            android:id="@+id/myImage"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_margin="20dp"
+            android:contentDescription="summer_img"
+            app:srcCompat="@drawable/summerimg" />
+```              
 ## Följande grundsyn gäller dugga-svar:
 
 - Ett kortfattat svar är att föredra. Svar som är längre än en sida text (skärmdumpar och programkod exkluderat) är onödigt långt.
