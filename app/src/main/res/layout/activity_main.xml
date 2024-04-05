@@ -38,7 +38,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:background="#2596be"/>
-
+        <!-- ändra "summer_img" till string -->
         <ImageView
             android:id="@+id/myImage"
             android:layout_width="200dp"

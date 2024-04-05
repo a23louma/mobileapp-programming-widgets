@@ -1,9 +1,9 @@
 
 # Rapport
 
-**Skriv din rapport här!**
-
-Added LinearLayout inside constraintlayout in activity_main.xml. 
+Jag började med att lägga till en LinearLayout inuti den befintliga constraintlayout i
+activity_main.xml. Jag valde att ändra "orientation" till horisontell. Jag ändrade även 
+bakgrundsfärgen. Se koden nedan.
 ```
     <LinearLayout
         android:layout_width="match_parent"
@@ -13,7 +13,8 @@ Added LinearLayout inside constraintlayout in activity_main.xml.
 
     </LinearLayout>
 ```
-Added EditText with placeholder "Skriv här" in activity_main.xml
+Därefter lade jag till EditText med placeholder "Skriv här" i activity_main.xml. Jag valde att använda
+layout_margin för att ändra placeringen. Se koden nedan.
 ```
         <EditText
             android:id="@+id/myEdtText"
@@ -24,7 +25,8 @@ Added EditText with placeholder "Skriv här" in activity_main.xml
             android:autofillHints="text"
             android:layout_margin="20dp"/>
 ```
-
+Jag skapade en Button med texten "Tryck här" i activity_main.xml. Jag ändrade färgen på knappen
+och även här valde jag att använda layout_margin för placering av knappen. Se koden nedan.
 ```
         <Button
             android:id="@+id/myFirstBtn"
@@ -34,7 +36,8 @@ Added EditText with placeholder "Skriv här" in activity_main.xml
             android:layout_margin="20dp"
             android:background="#2596be"/>
 ```      
-Added png-file in resource manager and added ImageView and added image there.
+Därefter lade jag till en png-fil i resource manager, lade till ImageView i activity_main.xml
+och lade till bilden där. Se koden nedan.
 ```  
         <ImageView
             android:id="@+id/myImage"
@@ -44,8 +47,8 @@ Added png-file in resource manager and added ImageView and added image there.
             android:contentDescription="summer_img"
             app:srcCompat="@drawable/summerimg" />
 ```   
-To access the button and edittext in Java, used findViewById() in MainActivity.java. I had to
-import Button class and EditText class.
+För att få tillgång till knappen och edittext i Java, använde jag findViewById() i MainActivity.java.
+Jag behövde importera Button-klassen och EditText-klassen. Se koden nedan.
 ```
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -54,38 +57,8 @@ import Button class and EditText class.
         Button myFirstBtn = findViewById(R.id.myFirstBtn);
         EditText myEdtText = findViewById(R.id.myEdtText);
 ```
-## Följande grundsyn gäller dugga-svar:
-
-- Ett kortfattat svar är att föredra. Svar som är längre än en sida text (skärmdumpar och programkod exkluderat) är onödigt långt.
-- Svaret skall ha minst en snutt programkod.
-- Svaret skall inkludera en kort övergripande förklarande text som redogör för vad respektive snutt programkod gör eller som svarar på annan teorifråga.
-- Svaret skall ha minst en skärmdump. Skärmdumpar skall illustrera exekvering av relevant programkod. Eventuell text i skärmdumpar måste vara läsbar.
-- I de fall detta efterfrågas, dela upp delar av ditt svar i för- och nackdelar. Dina för- respektive nackdelar skall vara i form av punktlistor med kortare stycken (3-4 meningar).
-
-Programkod ska se ut som exemplet nedan. Koden måste vara korrekt indenterad då den blir lättare att läsa vilket gör det lättare att hitta syntaktiska fel.
-
-```
-function errorCallback(error) {
-    switch(error.code) {
-        case error.PERMISSION_DENIED:
-            // Geolocation API stöds inte, gör något
-            break;
-        case error.POSITION_UNAVAILABLE:
-            // Misslyckat positionsanrop, gör något
-            break;
-        case error.UNKNOWN_ERROR:
-            // Okänt fel, gör något
-            break;
-    }
-}
-```
 
 Bilder läggs i samma mapp som markdown-filen.
 
 ![](android.png)
 
-Läs gärna:
-
-- Boulos, M.N.K., Warren, J., Gong, J. & Yue, P. (2010) Web GIS in practice VIII: HTML5 and the canvas element for interactive online mapping. International journal of health geographics 9, 14. Shin, Y. &
-- Wunsche, B.C. (2013) A smartphone-based golf simulation exercise game for supporting arthritis patients. 2013 28th International Conference of Image and Vision Computing New Zealand (IVCNZ), IEEE, pp. 459–464.
-- Wohlin, C., Runeson, P., Höst, M., Ohlsson, M.C., Regnell, B., Wesslén, A. (2012) Experimentation in Software Engineering, Berlin, Heidelberg: Springer Berlin Heidelberg.
