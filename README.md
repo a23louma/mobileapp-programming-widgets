@@ -43,7 +43,17 @@ Added png-file in resource manager and added ImageView and added image there.
             android:layout_margin="20dp"
             android:contentDescription="summer_img"
             app:srcCompat="@drawable/summerimg" />
-```              
+```   
+To access the button and edittext in Java, used findViewById() in MainActivity.java. I had to
+import Button class and EditText class.
+```
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        Button myFirstBtn = findViewById(R.id.myFirstBtn);
+        EditText myEdtText = findViewById(R.id.myEdtText);
+```
 ## Följande grundsyn gäller dugga-svar:
 
 - Ett kortfattat svar är att föredra. Svar som är längre än en sida text (skärmdumpar och programkod exkluderat) är onödigt långt.
