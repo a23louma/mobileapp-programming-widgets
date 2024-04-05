@@ -13,7 +13,16 @@ Added LinearLayout inside constraintlayout in activity_main.xml.
 
     </LinearLayout>
 ```
-
+Added EditText with placeholder "Skriv här" in activity_main.xml
+```
+        <EditText
+            android:id="@+id/myEdtText"
+            android:hint="Skriv här"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:autofillHints="text"/>
+```
 ## Följande grundsyn gäller dugga-svar:
 
 - Ett kortfattat svar är att föredra. Svar som är längre än en sida text (skärmdumpar och programkod exkluderat) är onödigt långt.
