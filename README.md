@@ -21,8 +21,19 @@ Added EditText with placeholder "Skriv här" in activity_main.xml
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="text"
-            android:autofillHints="text"/>
+            android:autofillHints="text"
+            android:layout_margin="20dp"/>
 ```
+
+```
+        <Button
+            android:id="@+id/myFirstBtn"
+            android:text="Tryck här"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="#2596be"/>
+```            
 ## Följande grundsyn gäller dugga-svar:
 
 - Ett kortfattat svar är att föredra. Svar som är längre än en sida text (skärmdumpar och programkod exkluderat) är onödigt långt.
