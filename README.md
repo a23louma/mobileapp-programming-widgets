@@ -3,7 +3,16 @@
 
 **Skriv din rapport här!**
 
-_Du kan ta bort all text som finns sedan tidigare_.
+Added LinearLayout inside constraintlayout in activity_main.xml. 
+```
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="#a1d4e2">
+
+    </LinearLayout>
+```
 
 ## Följande grundsyn gäller dugga-svar:
 
