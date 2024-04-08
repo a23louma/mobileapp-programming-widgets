@@ -60,7 +60,5 @@ användas i nuläget men som kan utvecklas i framtiden. Se koden nedan.
 ```
 Slutligen tog jag en skärmdump av appen som finns bifogad i rapporten.
 
-Bilder läggs i samma mapp som markdown-filen.
-
 ![](android.png)
 
