@@ -58,6 +58,7 @@ användas i nuläget men som kan utvecklas i framtiden. Se koden nedan.
         Button myFirstBtn = findViewById(R.id.myFirstBtn);
         EditText myEdtText = findViewById(R.id.myEdtText);
 ```
+Slutligen tog jag en skärmdump av appen som finns bifogad i rapporten.
 
 Bilder läggs i samma mapp som markdown-filen.
 
