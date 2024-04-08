@@ -2,13 +2,13 @@
 # Rapport
 
 Jag började med att lägga till en LinearLayout inuti den befintliga constraintlayout i
-activity_main.xml. Jag valde att ändra "orientation" till horisontell. Jag ändrade även 
+activity_main.xml. Jag valde att ändra "orientation" till vertikal. Jag ändrade även 
 bakgrundsfärgen. Se koden nedan.
 ```
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:background="#a1d4e2">
 
     </LinearLayout>
@@ -48,7 +48,8 @@ och lade till bilden där. Se koden nedan.
             app:srcCompat="@drawable/summerimg" />
 ```   
 För att få tillgång till knappen och edittext i Java, använde jag findViewById() i MainActivity.java.
-Jag behövde importera Button-klassen och EditText-klassen. Se koden nedan.
+Jag behövde importera Button-klassen och EditText-klassen. Detta är inte någon funktion som kommer
+användas i nuläget men som kan utvecklas i framtiden. Se koden nedan.
 ```
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
